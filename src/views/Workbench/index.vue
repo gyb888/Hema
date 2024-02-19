@@ -1,6 +1,6 @@
 <template>
-  <div class="dashboard-container">
-    <div class="dashboard-text">name: {{ name }}</div>
+  <div class="hm-container">
+    <div class="hm-text">name: {{ name }}</div>
   </div>
 </template>
 
@@ -18,9 +18,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.dashboard {
+.hm {
   &-container {
-    margin: 30px;
+    margin: 20px;
   }
   &-text {
     font-size: 30px;
